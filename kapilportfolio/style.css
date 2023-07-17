@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+#myport{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;}
+#abouttext{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ letter-spacing: 1px;
+}
+#Skill{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing: 1px;
+}
+#cont{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing: 1px;
+}
+ .navbg{
+    background-color:rgb(53, 118, 238)
+ }
+ 
+ .nav-item .dropdown-menu a:hover{
+    color: rgb(7, 107, 238);
+
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+}
+
+
+
+
+#imp{
+    width: 300px;
+    margin-left: 100px;
+}
+.cimg{
+  
+    margin-top: 80px;
+    
+    width: 100%;
+    animation: ani 3s  linear infinite;
+    z-index: 1000;
+}
+
+
+@keyframes ani{
+    0%{
+       scale: 0.90;
+     
+      
+    }
+  
+    50%{
+      scale: 1;
+    
+    }
+    100%{
+        scale: 0.90;
+      
+      }
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#scrollToTopBtn {
+    display: none; 
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 89;
+    font-size: 16px;
+    border: none;
+   
+    background-color: #a7570d;
+    color: rgb(75, 5, 5);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #000000;
+  }
+  
+  .bt{
+    width: 300px;
+    height: 300px;
+    background-color: #a7570d;
+
+    border: 1px black; 
+  }
+  
+  img{
+    width:100%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 20px; /* Adjust the gap between columns */
+  }
+
+  .grid-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
